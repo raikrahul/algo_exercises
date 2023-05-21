@@ -6,8 +6,6 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 class Graph
 {
 private:
@@ -75,10 +73,10 @@ int main()
 
     int vertex = 3;
     int indegree = graph.indegree(vertex);
-    cout << "Indegree of vertex " << vertex << ": " << indegree << endl;
+    std::cout << "Indegree of vertex " << vertex << ": " << indegree << std::endl;
     vertex = 1;
     int outdegree = graph.outdegree(vertex);
-    cout << "Outdegree of vertex " << vertex << ": " << outdegree << endl;
+    std::cout << "Outdegree of vertex " << vertex << ": " << outdegree << std::endl;
 
     return 0;
 }
