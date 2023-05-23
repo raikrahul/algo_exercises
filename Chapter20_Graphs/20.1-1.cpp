@@ -21,7 +21,7 @@ public:
     {
         for (int i = 0; i < numVertices; i++)
         {
-            cout << "Vertex " << i << " -> ";
+            std::cout << "Vertex " << i << " -> ";
             for (int j : adjacencyList[i])
             {
                 cout << j << " ";
